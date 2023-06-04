@@ -1,12 +1,17 @@
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
+import Filter from "./components/FilterComponents";
+import Card from "./components/Card";
 
-const App=()=>{
-  return(
+const App = () => {
+  return (
     <>
-    <h1>hello react</h1>
-  <Navbar/>
+      <Navbar />
+      <Filter />
+     
+        <Card />
+   
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
