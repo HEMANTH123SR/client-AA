@@ -24,6 +24,8 @@ router.patch('/:id',upadteById);
 //delete the data
 router.delete('/:id',deleteById);
 
+
+
 module.exports=router
 
 
